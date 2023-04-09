@@ -1,3 +1,4 @@
+#[allow(dead_code)]
 pub fn largest_prime_factor_of_n(mut n: u64) -> Option<u64> {
     let mut factors = Vec::new();
 
